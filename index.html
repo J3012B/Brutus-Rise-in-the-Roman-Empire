@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Empire: The Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>Roman Empire</h1>
+            <div class="score-container">
+                <span>Score: </span>
+                <span id="score">0</span>
+            </div>
+        </div>
+        <button class="exit-fullscreen" id="exitFullscreenButton">Exit</button>
+        <div class="floating-score">Score: <span id="floatingScore">0</span></div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="game-controls">
+            <button id="startButton">Start Game</button>
+            <button id="pauseButton">Pause</button>
+            <button id="restartButton">Restart</button>
+            <button id="fullscreenButton">Fullscreen</button>
+        </div>
+    </div>
+    <div class="instructions">
+        <h2>How to Play</h2>
+        <p>Use arrow keys or WASD to move your character.</p>
+        <p>Collect coins to increase your score!</p>
+        <p>Explore the ancient city of Rome with its streets, buildings, and temples.</p>
+    </div>
+    <script type="module" src="js/game.js"></script>
+</body>
+</html> 

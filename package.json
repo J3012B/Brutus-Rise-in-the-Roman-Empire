@@ -1,0 +1,12 @@
+{
+  "name": "roman-empire-game",
+  "version": "1.0.0",
+  "description": "A browser-based Roman Empire themed game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
